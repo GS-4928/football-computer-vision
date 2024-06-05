@@ -9,7 +9,7 @@ from view_transformer import ViewTransformer
 from speed_and_distance_estimator import SpeedAndDistanceEstimator
 
 def main():
-    #read in video from our input video folder
+    #read in video from input video folder
     video_frames = read_video(...)
 
     
