@@ -10,7 +10,7 @@ from speed_and_distance_estimator import SpeedAndDistanceEstimator
 
 def main():
     #read in video from our input video folder
-    video_frames = read_video('Input_Videos/08fd33_4.mp4')
+    video_frames = read_video(...)
 
     
 
@@ -88,7 +88,7 @@ def main():
     #draw speed and distance
     speed_and_distance_estimator.draw_speed_distance_annotations(output_video_frames,tracks)
     #save our video
-    save_video(output_video_frames, 'Output_Videos/08fd33_4_output_final.avi')
+    save_video(output_video_frames, 'Output_Videos/video_output_final.avi')
 
 if __name__ == '__main__':
     main()
